@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MindTrace AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🧠 MindTrace AI</h1>
+        <p>Emotion & Stress Detection from Text</p>
+
+        <textarea id="inputText" placeholder="Enter your thoughts..."></textarea>
+        <button onclick="analyzeText()">Analyze</button>
+
+        <div id="result" class="result hidden">
+            <h2>Result</h2>
+            <p><strong>Emotion:</strong> <span id="emotion"></span></p>
+            <p><strong>Stress Level:</strong> <span id="stress"></span></p>
+            <p><strong>Confidence:</strong> <span id="confidence"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
